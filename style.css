@@ -15,6 +15,9 @@
     --body-font: "Montserrat", sans-serif;
     --second-font: "Dancing Script", cursive;
 }  
+body{
+    background: var(--black-color);
+}
 
 header {
     position: fixed;
@@ -98,6 +101,50 @@ header {
     margin-left: 11rem;
     position: absolute;
     
+}
+
+.cookie-bread{
+
+}
+
+.grain-bread{
+
+}
+
+.butter-bread{
+
+}
+
+.nb{
+    align-self: center;
+}
+
+.layer h1{
+    font-family: var(--second-font);
+    /* align-items: center; */
+    color: var(--title-color);
+    text-align: center;
+}
+
+.layer p{
+    font-family: var(--body-font);
+    color: var(--text-color);
+}
+.layer .nb{
+    margin-top: 5rem;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.cookies{
+    /* margin: 10rem; */
+    margin-top: 0;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    text-align: center;
+}
+.cookies img{
+    width: 55%;
 }
 /* 
 .btn{
