@@ -48,7 +48,7 @@ header {
 }
 
 .navbar-nav .nav-link:hover  {
-    color: orange;
+    color: var(--first-color);
 }
 
 
@@ -65,5 +65,33 @@ header {
 
 .dropdown-menu .dropdown-item:hover {
     background-color: white; /* Change to your desired hover background color */
-    color: orange; /* Change to your desired hover text color */
+    color: var(--first-color) /* Change to your desired hover text color */
+}
+
+/* adjust the home bread image size */
+
+.carosel img {
+    width: 25%;
+}
+
+.carosel .action-text h1{
+    font-family: var(--second-font);
+    font-size: 9rem;
+    color: var(--title-color);
+}
+
+.carosel .action-text button .btn{
+    -ms-transform: skewX(20deg);
+  -webkit-transform: skewX(20deg);
+  transform: skewX(20deg);  
+  display: inline-block;
+  color: var(--title-color);
+  background: var(--second-font);
+}
+
+.carosel .action-text img {
+    width: 7%;
+    margin-left: 1rem;
+    position: absolute;
+    
 }
