@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 :root {
     --header-height: 3.5rem;
   
@@ -76,22 +76,30 @@ header {
 
 .carosel .action-text h1{
     font-family: var(--second-font);
-    font-size: 9rem;
+    font-size: 6rem;
     color: var(--title-color);
 }
 
-.carosel .action-text button .btn{
-    -ms-transform: skewX(20deg);
-  -webkit-transform: skewX(20deg);
-  transform: skewX(20deg);  
-  display: inline-block;
-  color: var(--title-color);
-  background: var(--second-font);
+.carosel .action-text .button{
+    outline: none;
+    outline-color: var(--first-color);
+    color: var(--black-color);
+    background-color: var(--first-color);
+    transform: skew(-10deg);
+    border: 1px solid var(--first-color);
+    font-family: var(--body-font);
+    font-weight: bold;
+    font-size: smaller;
 }
 
 .carosel .action-text img {
-    width: 7%;
-    margin-left: 1rem;
+    width: 4%;
+    margin-top: 3rem;
+    margin-left: 11rem;
     position: absolute;
     
 }
+/* 
+.btn{
+    color: var(--first-color);
+} */
