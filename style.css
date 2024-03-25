@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+:root {
+    --header-height: 3.5rem;
+  
+    --first-color: hsl(28, 88%, 62%);
+    --first-color-alt: hsl(28, 84%, 58%);
+    --title-color: hsl(0, 0%, 95%);
+    --text-color: hsl(0, 0%, 75%);
+    --text-color-light: hsl(0, 0%, 65%);
+    --black-color: hsl(0, 0%, 6%);
+    --body-color: hsl(0, 0%, 6%);
+    --container-color: hsl(0, 0%, 10%);
+  
+    --body-font: "Montserrat", sans-serif;
+    --second-font: "Dancing Script", cursive;
+}  
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Adjust the z-index as needed */
+    /* Optionally, you can add background color, box-shadow, etc. */
+    background-color: #fff; /* Example background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Example box-shadow */
+}
+
+.carosel{
+    /* image background */
+    background-image: url("../images/home-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: var(--body-color);
+    font-family: var(--body-font);
+    color: var(--text-color);
+    height: 720px;
+
+}
+
+/* change navbar background color */
+
+.navbar-nav .nav-link{
+    color: var(--title-color);
+}
+
+.navbar-nav .nav-link:hover  {
+    color: orange;
+}
+
+
+.navbar-brand{
+    color: var(--title-color);
+}
+
+
+.navbar-text{
+    font-family: var(--second-font);
+    font-size: 1.5rem;
+    color: var(--first-color);
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: white; /* Change to your desired hover background color */
+    color: orange; /* Change to your desired hover text color */
+}
